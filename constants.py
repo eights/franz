@@ -13,17 +13,24 @@ MIDI_NOTE_NUMBERS = {
     'B': 47,
 }
 
-# Scale degrees
-SD_1 = 0
-SD_SHARP_1, SD_FLAT_2 = 1, 1
-SD_2 = 2
-SD_SHARP_2, SD_FLAT_3, = 3, 3
-SD_3 = 4
-SD_4 = 5
-SD_SHARP_4, SD_FLAT_5 = 6, 6
-SD_5 = 7
-SD_SHARP_5, SD_FLAT_6 = 8, 8
-SD_6 = 8
-SD_SHARP_6, SD_FLAT_7 = 9, 9
-SD_7 = 10
-SD_8 = 11
+# Scale degrees to semitones
+SD = {
+    '1': 0,
+    'sharp 1': 1,
+    'flat 2': 1,
+    '2': 2,
+    'sharp 2': 3,
+    'flat 3': 3,
+    '3': 4,
+    '4': 5,
+    'sharp 4': 6,
+    'flat 5': 6,
+    '5': 7,
+    'sharp 5': 8,
+    'flat 6': 8,
+    '6': 9,
+    'sharp 6': 10,
+    'flat 7': 10,
+    '7': 11,
+    '8': 12,
+}
